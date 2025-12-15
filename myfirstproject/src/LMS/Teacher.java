@@ -15,7 +15,16 @@ public class Teacher extends Login {
         name=Sc.next();
         System.out.println("Enter Your Teaching Subject");
         subject=Sc.next();
+    }public void teachInfo1(){
+        System.out.println("Enter Your ID");
+        id=Sc.nextInt();
+        System.out.println("Enter your Name");
+        name=Sc.next();
+        System.out.println("Enter Your Teaching Subject");
+        subject=Sc.next();
     }
+
+
     public void show(){
         System.out.println("Your ID: "+ id);
         System.out.println("Your Name: "+name);
