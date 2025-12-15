@@ -5,6 +5,7 @@ public class Teacher extends Login {
     Scanner Sc=new Scanner(System.in);
     int id;
     String name,subject;
+    String namr2;
     String course[]= new String[5];
 
 
